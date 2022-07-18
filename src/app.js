@@ -7,8 +7,8 @@ import Medicine from "./components/medicine/index.js";
 const App = () => {
   return (
     <div>
-      {/* <Doctors /> */}
       <Medicine />
+      {/* <Doctors /> */}
     </div>
   );
 };
