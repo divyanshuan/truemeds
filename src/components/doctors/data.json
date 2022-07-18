@@ -1,0 +1,56 @@
+[
+    {
+        "name":"Dr Kunal Vani",
+        "image":"https://assets.truemeds.in/Images/leadership/KWProfile2.png?tr=cm-pad_resize,bg-FFFFFF,lo-true,w-100",
+        "education":"MBBS",
+        "mantra":"Stay Healthy"
+    },
+    {
+        "name":"Dr. Sachin Singh",
+        "image":"https://assets.truemeds.in/Images/doctors/sachin_2.jpg?tr=cm-pad_resize,bg-FFFFFF,lo-true,w-100",
+        "education":"MBBS",
+        "mantra":"\"Health is the highest form of happiness.\""
+    },
+    {
+        "name":"Dr. Boban Raju",
+        "image":"https://assets.truemeds.in/Images/doctors/DrRajuImage.jpg?tr=cm-pad_resize,bg-FFFFFF,lo-true,w-100",
+        "education":"MBBS",
+        "mantra":"\"A Good diet is the secret to good health & exercise is a celebration of what your body can do.\""
+    },
+    {
+        "name":"Dr. Shreetej Patva",
+        "image":"https://assets.truemeds.in/Images/doctors/DrPatva.jpg?tr=cm-pad_resize,bg-FFFFFF,lo-true,w-100",
+        "education":"MBBS",
+        "mantra":"\"The greatest wealth is health.\""
+    },
+    {
+        "name":"Dr. Hiren Pipaliya",
+        "image":"https://assets.truemeds.in/Images/doctors/DoctorImage/20/Screenshot_20220527-150137~320220527151116.png?tr=cm-pad_resize,bg-FFFFFF,lo-true,w-100",
+        "education":"MBBS",
+        "mantra":"\"Health is the highest form of happiness.\""
+    },
+    {
+        "name":"Dr. Akhilesh Kumar",
+        "image":"https://assets.truemeds.in/Images/doctors/DoctorImage/22/AKHILESH_copy_284x37720220522125537.jpg?tr=cm-pad_resize,bg-FFFFFF,lo-true,w-100",
+        "education":"MBBS",
+        "mantra":"\"Starts your day with Laughing and Walking you will feel healthier.\""
+    },
+    {
+        "name":"Dr Kunal Vani",
+        "image":"https://assets.truemeds.in/Images/leadership/KWProfile2.png?tr=cm-pad_resize,bg-FFFFFF,lo-true,w-100",
+        "education":"MBBS",
+        "mantra":"Stay Healthy"
+    },
+    {
+        "name":"Dr. Sachin Singh",
+        "image":"https://assets.truemeds.in/Images/doctors/sachin_2.jpg?tr=cm-pad_resize,bg-FFFFFF,lo-true,w-100",
+        "education":"MBBS",
+        "mantra":"\"Health is the highest form of happiness.\""
+    },
+    {
+        "name":"Dr. Boban Raju",
+        "image":"https://assets.truemeds.in/Images/doctors/DrRajuImage.jpg?tr=cm-pad_resize,bg-FFFFFF,lo-true,w-100",
+        "education":"MBBS",
+        "mantra":"\"A Good diet is the secret to good health & exercise is a celebration of what your body can do.\""
+    }
+]
