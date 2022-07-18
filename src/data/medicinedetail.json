@@ -1,6 +1,7 @@
 {
   "Medtail": [
     {
+      "id": "1",
       "name": "Accu Chek Active Strips 50",
       "compnyname": "Roche",
       "originalprice": "975",
@@ -10,15 +11,7 @@
       "secondimg": "https://assets.truemeds.in/Images/ProductImage/TM-STPS1-000075/ACCU-CHEK-ACTIVE-STRIPS-50_1.webp?tr=cm-pad_resize,bg-FFFFFF,lo-true,w-150"
     },
     {
-      "name": "Accu Chek Active Strips 50",
-      "compnyname": "Roche",
-      "originalprice": "975",
-      "discountedPrice": "877.50",
-      "offerprecent": "10",
-      "firstimg": "https://assets.truemeds.in/Images/ProductImage/TM-STPS1-000075/ACCU-CHEK-ACTIVE-STRIPS-50_3.webp?tr=cm-pad_resize,bg-FFFFFF,lo-true,w-150",
-      "secondimg": "https://assets.truemeds.in/Images/ProductImage/TM-STPS1-000075/ACCU-CHEK-ACTIVE-STRIPS-50_1.webp?tr=cm-pad_resize,bg-FFFFFF,lo-true,w-150"
-    },
-    {
+      "id": "2",
       "name": "Accu Chek Active Strips 60",
       "compnyname": "Roche",
       "originalprice": "975",
@@ -28,6 +21,7 @@
       "secondimg": "https://assets.truemeds.in/Images/ProductImage/TM-STPS1-000075/ACCU-CHEK-ACTIVE-STRIPS-50_1.webp?tr=cm-pad_resize,bg-FFFFFF,lo-true,w-150"
     },
     {
+      "id": "3",
       "name": "Accu Chek Active Strips 70",
       "compnyname": "Roche",
       "originalprice": "975",
@@ -37,6 +31,7 @@
       "secondimg": "https://assets.truemeds.in/Images/ProductImage/TM-STPS1-000075/ACCU-CHEK-ACTIVE-STRIPS-50_1.webp?tr=cm-pad_resize,bg-FFFFFF,lo-true,w-150"
     },
     {
+      "id": "4",
       "name": "Accu Chek Active Strips 80",
       "compnyname": "Roche",
       "originalprice": "975",
@@ -46,6 +41,7 @@
       "secondimg": "https://assets.truemeds.in/Images/ProductImage/TM-STPS1-000075/ACCU-CHEK-ACTIVE-STRIPS-50_1.webp?tr=cm-pad_resize,bg-FFFFFF,lo-true,w-150"
     },
     {
+      "id": "5",
       "name": "Accu Chek Active Strips 90",
       "compnyname": "Roche",
       "originalprice": "975",
