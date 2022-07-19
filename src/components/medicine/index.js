@@ -10,6 +10,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import meddata from "../../data/medicinedetail.json";
+import nxtbtn from "../../assets/arrow-right.png";
+import prevbtn from "../../assets/left-arrow.png";
 
 const Medicine = () => {
   return (
@@ -17,13 +19,35 @@ const Medicine = () => {
       <div className="main_division">
         <div className="heading_div">
           <h1>Medicines popularly bought on Truemeds</h1>
-          <p>Deals For You </p>
+          <div className="head_buttons">
+            <p>Deals For You </p>
+            <div className="buttonsdiv">
+              {" "}
+              <button type="button" className="prev mybutton">
+                <img
+                  src="https://www.truemeds.in/static/media/prev.3a1697ee.svg"
+                  alt="prevbtn"
+                  height={40}
+                />
+              </button>
+              <button type="button" className="next mybutton">
+                <img
+                  src="https://www.truemeds.in/static/media/next.a6438e65.svg"
+                  alt="nxtbtn"
+                  height={40}
+                />
+              </button>
+            </div>
+          </div>
         </div>
         <div className="box_main">
           <Swiper
             className="mySwiper"
             modules={[Autoplay, Navigation]}
-            navigation={true}
+            navigation={{
+              nextEl: ".next",
+              prevEl: ".prev",
+            }}
             loop={true}
             spaceBetween={1}
             breakpoints={{
@@ -33,7 +57,7 @@ const Medicine = () => {
               },
               768: {
                 width: 768,
-                slidesPerView: 1,
+                slidesPerView: 2,
               },
               999: {
                 // width: 950,
@@ -44,7 +68,7 @@ const Medicine = () => {
             {meddata.Medtail.map((detail) => {
               return (
                 <>
-                  <SwiperSlide className="slide_box">
+                  <SwiperSlide className="slide_box" key={detail.id}>
                     <div className="master_box">
                       <div className="image_area">
                         <Swiper
@@ -54,6 +78,10 @@ const Medicine = () => {
                           slidesPerView={1}
                           pagination={{
                             clickable: true,
+                          }}
+                          autoplay={{
+                            delay: 2000,
+                            disableOnInteraction: false,
                           }}
                         >
                           <SwiperSlide>
@@ -104,53 +132,3 @@ const Medicine = () => {
 };
 
 export default Medicine;
-
-/*{
-    <Swiper
-            className="mySwiper"
-            modules={[Autoplay, Navigation]}
-            navigation={true}
-            loop={true}
-            centeredSlides={true}
-            spaceBetween={1}
-            slidesPerView={1}
-          >
-            <SwiperSlide className="slide_box">
-              <div className="master_box">
-                <div className="image_area">
-                  <Swiper
-                    className="mySwiper"
-                    modules={[Autoplay, Pagination, Navigation]}
-                    loop={true}
-                    slidesPerView={1}
-                    pagination={{
-                      clickable: true,
-                    }}
-                  >
-                    <SwiperSlide>
-                      <img
-                        height={150}
-                        width={150}
-                        src="https://media.istockphoto.com/photos/falling-antibiotics-healthcare-background-picture-id1300036753?k=20&m=1300036753&s=612x612&w=0&h=dlbqUqv7hXHw01H1CCycVV8ZhdsNpl_3iehkKasCi3E="
-                        alt=""
-                      />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <img
-                        height={150}
-                        width={150}
-                        src="https://media.istockphoto.com/photos/falling-antibiotics-healthcare-background-picture-id1300036753?k=20&m=1300036753&s=612x612&w=0&h=dlbqUqv7hXHw01H1CCycVV8ZhdsNpl_3iehkKasCi3E="
-                        alt=""
-                      />
-                    </SwiperSlide>
-                  </Swiper>
-                </div>
-                <h3>hello</h3>
-                <p>world</p>
-                <p>price</p>
-                <p>discount</p>
-                <button>hello</button>
-              </div>
-            </SwiperSlide>
-          </Swiper>
-} */
